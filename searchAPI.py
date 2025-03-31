@@ -1,5 +1,6 @@
 from rcsbapi.search import AttributeQuery, TextQuery
 from rcsbapi.search import search_attributes as attrs
+
 #
 # q1 = AttributeQuery(
 #     attribute = "rcsb_entity_source_organism.scientific_name",

@@ -27,7 +27,7 @@ for val in listLac:
     for rId in query():
         rId_list.append(rId)
 
-with open ("lac_output.csv", "w", newline="") as file:
+with open ("files/lac_output.csv", "w", newline="") as file:
     writer = csv.writer(file)
     writer.writerow(["PDB-ID"])
     for rId in rId_list:

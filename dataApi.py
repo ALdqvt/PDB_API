@@ -1,4 +1,4 @@
-
+#DATA API
 import os
 import csv
 from Bio import PDB
@@ -12,11 +12,11 @@ def read_pdb_ids_csv(csv_file):
             for row in reader:
                 pdb_ids.append(row[PDB_ID])
     except Exception as e:
-        print(f"Fel vid inläsning av CSV-filen: {e}")
+        print("Fel vid inläsning av CSV-filen: {e}")
     return pdb_ids
 
 csv_file = 'sal.csv'
-pdb_ids = read_pdb_ids_from_csv(csv_file)
+# pdb_ids = read_pdb_ids_from_csv(csv_file)
 
 output_dir = "pdb_files"
 if not os.path.exists(output_dir):
