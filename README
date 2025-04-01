@@ -1,0 +1,5 @@
+1. listToIDs.py converts your protein names to PDB IDs by searching for them with their species name on rcsb.org
+These IDs are then saved in a .csv for for each corresponding species.
+2. fileDownloader.py takes these lists of IDs and looks them up on PDB to then download them as .pdb files.
+Some downloads may not work, unsure why.
+3. SAP_XML.py is meant to convert all downloaded .pdb files in their beta-factor to show their per residue SAP-score.

@@ -1,6 +1,6 @@
 
 
-pdb_id = "4q6v"
+pdb_id = "1G90"
 user = "cat"
 working_directory = "/home/cat/pymol/my_pdbs"
 
