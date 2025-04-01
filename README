@@ -1,3 +1,5 @@
+This project was run in PyCharm with a dedicated conda environment assigned to it.
+
 1. listToIDs.py converts your protein names to PDB IDs by searching for them with their species name on rcsb.org
 These IDs are then saved in a .csv for for each corresponding species.
 2. fileDownloader.py takes these lists of IDs and looks them up on PDB to then download them as .pdb files.
